@@ -13,7 +13,7 @@ module.exports = {
 			exposes: {
 				"./ProductsIndex": "./src/index",
 			},
-			shared: ["faker"], //this will work for container, but not for standalone app
+			shared: ["faker"],
 		}),
 		new HtmlWebpackPlugin({
 			template: "./public/index.html",
