@@ -4,3 +4,6 @@ ecomm/package-lock.json
 container/node_modules
 container/dist
 container/package-lock.json
+cart/node_modules
+cart/dist
+cart/package-lock.json
