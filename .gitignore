@@ -1,0 +1,6 @@
+ecomm/node_modules
+ecomm/dist
+ecomm/package-lock.json
+container/node_modules
+container/dist
+container/package-lock.json
