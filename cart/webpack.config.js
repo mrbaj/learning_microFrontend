@@ -13,6 +13,7 @@ module.exports = {
 			exposes: {
 				"./showCart": "./src/index",
 			},
+			shared: ["faker"], //this will work for container, but not for standalone app
 		}),
 		new HtmlWebpackPlugin({
 			template: "./public/index.html",
